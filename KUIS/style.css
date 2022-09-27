@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    background-color: rgb(218, 217, 216);
+}
+
+.container{
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 5%;
+    margin-top: 30px;
+}
+
+
+td li{
+    text-align: left;
+}
+
+p, ul, td {
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+
+#ket{
+    font-weight: bold;
+}
+
+legend {
+    margin-left: -100px ;
+    background-color: rgb(252, 252, 246);
+    padding: 0 20px;
+    border-radius: 15px;
+    border-style: groove;
+}
+
+.ket2 {
+    margin: 20px 0;
+    width: 50%;
+    padding: 10px 5px;
+    text-align: left;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+#pendaftaran {
+    margin-bottom: -0.5px;
+    margin-left: 2px;
+}
+
+.daftar {
+    padding: 20px;
+}
