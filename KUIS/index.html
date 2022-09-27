@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulir Registrasi</title>
+</head>
+<body>
+   <div class="container">
+    <div class="box">
+        <fieldset>
+            <legend><h1 style="margin: 0;">FORMULIR REGISTRASI</h1></legend>
+            <h2 style="text-align:left">PESERTA</h2>
+        <table>
+        
+        <tr>
+            <td>Nama Lengkap & Gelar</td>
+            <td>:</td>
+            <td><input type="text" id="nama"></td>
+        </tr>
+        
+        <tr>
+            <td>Asal Instansi / Kota</td>
+            <td>:</td>
+            <td><input type="text" id="asal"></td>
+        </tr>
 
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td style="width: 70%;"><input type="text" id="alamat"></td>
+        </tr>
+
+        <tr>
+            <td>Kode Pos</td>
+            <td>:</td>
+            <td><input type="text" id="kodepos"></td>
+        </tr>
+
+        <tr>
+            <td>Provinsi</td>
+            <td>:</td>
+            <td><input type="text" id="provinsi"></td>
+        </tr>
+        
+        <tr>
+            <td>Telpon / Handphone</td>
+            <td>:</td>
+            <td><input type="text" id="telp"></td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td><input type="text" id="email"></td>
+        </tr>
+
+        <tr>
+            <td>Sponsor</td>
+            <td>:</td>
+            <td><input type="text" id="sponsor"></td>
+
+        </tr>
+
+        <tr>
+            <td> - Nama Perusahaan</td>
+            <td>:</td>
+            <td><input type="text" id="namaper"></td>
+        </tr>
+
+        <tr>
+            <td> - Alamat Perusahaan</td>
+            <td>:</td>
+            <td><input type="text" id="alamatper"></td>
+        </tr>
+        
+        <tr>
+            <td> - Nama Kontak Personal</td>
+            <td>:</td>
+            <td><input type="text" id="kontak"></td>
+        </tr>
+
+        <tr>
+            <td> - Telp. Personal</td>
+            <td>:</td>
+            <td><input type="text" id="telpper"></td>
+        </tr>
+
+        <tr>
+            <td> - Email Perusahaan</td>
+            <td>:</td>
+            <td><input type="text" id="emailper"></td>
+        </tr>
+        <br>        
+        </table>
+        
+        <div class="keterangan">
+            <p>Kontribusi peserta Rp. 2.500.000,- (Dua Juta Lima Ratus Ribu Rupiah) belum termasuk penginapan dan akomodasi</p>
+            <p>Konfirmasi Kepesertaan : </p>
+            <ul>
+                <li>Sebelum 15 Januari 2012 : Rp. 2.500.000,- </li>
+                <li>Sesudah 15 Januari 2012 : Rp. 2.750.000,- </li>
+                <li>On Site              : Rp. 3.000.000,-</li>
+            </ul>
+            <p>Pembatalan Pendaftaran :</p>
+            <ul>
+                <li>Sebelum H-5 uang dikembalikan 50%</li>
+                <li>Sesudah H-5 uang tidak dapat dikembalikan</li>
+            </ul>
+            <br>
+            <p>Akomodasi penginapan peserta, harga kamar kelas standar berkisat antara Rp. 250.000,- - Rp. 300.000,-*)</p>
+           <br>
+            <table id="ket">
+                <tr>
+                    <p id="pendaftaran"><b>Pendaftaran via transfer Bank ke :</b></p>
+                    <td> Nama Bank</td>
+                    <td>:</td>
+                    <td>Bank BCA KCU Cirebon</td>
+                </tr>
+                <tr>
+                    <td> No. Rekening</td>
+                    <td>:</td>
+                    <td>1341015478</td>
+                </tr>
+                <tr>
+                    <td>Atas Nama </td>
+                    <td>:</td>
+                    <td>Junaedi, S.Kep</td>
+                </tr>
+            </table>
+        </div>
+            <div class="ket2">
+                Bukti transfer mohon dikirim ke alamat Sekretariat Panitia LPTO Puskesmas Sitopang
+                <br> Jl. Sekarsari No.1 Argasurya Harjamukti Kota Cirebon atau kirim ke email: enterprenur41@gmail.com
+                <br>Konfirmasi setelah transfer ke 0813232806	
+            </div>
+           
+            <button style="padding: 10px; width: 10%; " type="submit" onclick="validasi()">Daftar</button>
+           
+        </div>
+
+        <!-- <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><input type="submit" name="submit" value="Submit"/>
+            <input type="reset" name="reset" value="Batal"/></td>
+        </tr> -->
+        </div>
+
+       </div>
+        </fieldset>
+
+        <script src="main.js"></script>
+</body>
+</html>
