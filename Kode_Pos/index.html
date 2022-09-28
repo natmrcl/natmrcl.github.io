@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kode Pos Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="wall.jpg">
+    <h1>Kode Pos Indonesia</h1>
+    <form action="">
+        <div class="content">
+            <h3>Provinsi</h3>
+            <select name="provinsi" id="provinsi" onchange="Kabupaten()">
+                <option value="">Pilih Provinsi</option>
+            </select>
+        </div>
+        <div class="content">
+            <h3>Kabupaten/Kota</h3>
+            <select name="kabupaten" id="kabupaten" onchange="Kecamatan()">
+                <option value="">Pilih Kabupaten/Kota</option>
+            </select>
+        </div>
+        <div class="content">
+            <h3>Kecamatan</h3>
+            <select name="kecamatan" id="kecamatan">
+                <option value="">Pilih Kecamatan</option>
+            </select>
+        </div>
+    </form>
+    <div class="result">
+        <button type="submit" onclick="Result()">CARI HASIL</button>
+    </div>
+    <div id="container"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
