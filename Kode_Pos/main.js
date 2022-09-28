@@ -62,14 +62,14 @@ async function Kecamatan(){
     });
 }
 async function Result(){
-    const temp = selectedProvinsi.options[selectedProvinsi.selectedIndex].text
+    const temp = selectedKecamatan.options[selectedKecamatan.selectedIndex].text
     const result = await dataResult(selectedKecamatan.options[selectedKecamatan.selectedIndex].text)
     resultElement.innerHTML = ""
     if (result.data.length <= 0) {
         resultElement.innerHTML = "Data tidak ditemukan";
       } else {
         for(i = 0; i < result.data.length; i++){
-            if(temp == (result.data[i].province).toUpperCase()){
+            if(temp == (result.data[i].subdistrict)){
                 resultElement.innerHTML += `
             <div class="item">
             <table>
